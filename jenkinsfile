@@ -6,7 +6,7 @@ node () {
 
 wrap([$class: 'Xvfb']) {
 	stage ('Deploy_Slack_API_CP4I - Checkout') {
- 	 checkout([$class: 'GitSCM', branches: [[name: '*/master']], doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [[credentialsId: 'jenkins-token', url: 'https://github.ibm.com/anand-awasthi/Deploy_Slack_API_CP4I.git']]]) 
+ 	 checkout([$class: 'GitSCM', branches: [[name: '*/master']], doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [[credentialsId: 'jenkins-token', url: 'https://github.com/awasthan/Deploy_Slack_API_CP4I.git']]]) 
 	}
 	stage ('Deploy_Slack_API_CP4I - Build') {
  	
