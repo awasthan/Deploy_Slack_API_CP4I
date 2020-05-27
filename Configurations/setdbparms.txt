@@ -1,3 +1,3 @@
-kafka::myKafkaSecId ace-client <apikey>
+kafka::myKafkaSecId ace-client _Gyx8V_c71tg5tYiqGlzKwhVKBK_4Fkp7KeaXzFRY0el
 ace-server::truststorePass dummy changeit
-Designer_Slack_Alert_API apikey <ibm cloud api key>
+Designer_Slack_Alert_API apikey PZU3_cpupUtrGL0K-zDHQqBbZCfB1XDgcxIegXDFLIRT
